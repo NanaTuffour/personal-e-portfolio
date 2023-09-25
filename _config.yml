@@ -16,9 +16,8 @@
 title: Nana Tuffour - Portfolio
 email: na.tuffour24@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Here is a showcase of my current skills and notable projects
-  that I have learned so far. I aim to obtain more skills and
-  improve my current ones in the near future.
+  Here is a link to my ePortfolio that showcases my current skills and notable projects
+  that I have learned so far.
 # twitter_username: username
 github_username: NanaTuffour
 minimal_mistakes_skin: aqua
@@ -59,33 +58,25 @@ plugins:
 
 author:
   name   : "Nana Tuffour"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/best-picture.jpg"
+  bio    : "Here is a showcase of my current skills and notable projects
+            that I have learned and contribtued to so far. I aim to obtain more skills and
+            improve my current ones in the near future."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://nanatuffour.github.io/personal-e-portfolio/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/NanaTuffour"
+
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+
 
 defaults:
   # _posts
