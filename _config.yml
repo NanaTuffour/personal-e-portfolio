@@ -16,6 +16,12 @@
 title: Nana Tuffour - Portfolio
 email: na.tuffour24@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
+  Welcome! This portfolio showcases skills and projects
+  I have learned over my college career. I aim to grow my
+  skillset further in the near future.
+# twitter_username:
+github_username: username
+minimal_mistakes_skin: default
   Here is a link to my ePortfolio that showcases my current skills and notable projects
   that I have learned so far.
 # twitter_username: username
