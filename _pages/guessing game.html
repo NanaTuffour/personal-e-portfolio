@@ -6,9 +6,11 @@ make game automatic with search algorithm
 add play for me button
 add anything else that would be cool -->
 
-<label for="red">Guess:</label>
-<input id="guess" type="text" />
-<button onclick="check()">Check</button>
+<form>
+    <label for="red">Guess:</label>
+    <input id="guess" type="text" />
+    <button onclick="check()">Check</button>
+</form>
 <script type="text/javascript">
 theNumber = Math.floor(Math.random()*100)
 check = function() {
