@@ -5,8 +5,7 @@ permalink: /game/
 make game automatic with search algorithm
 add play for me button
 add anything else that would be cool 
-add number of guesses  option
-add reset button-->
+add number of guesses  option-->
 
 
 <form onsubmit="event.preventDefault();check()">
@@ -18,6 +17,7 @@ add reset button-->
 <p id="words">  This is the beginning of how I added a guessing 
     game to my ePortfolio</p>
 <script type="text/javascript">
+var guessChecks = 0;
 theNumber = Math.floor(Math.random()*100)
 words = document.querySelector("#words");
 check = function() {
@@ -31,6 +31,9 @@ check = function() {
             words.innerHTML += "<br>" + guess + " you are too high"
         }      
     }
+
+    guessChecks += 1;
+    alert(guessChecks);
 }
 reset = function() {
     words.innerHTML = "New game!"
