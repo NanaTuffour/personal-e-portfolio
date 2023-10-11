@@ -4,7 +4,9 @@ permalink: /game/
 <!-- look up form onsubmit
 make game automatic with search algorithm
 add play for me button
-add anything else that would be cool -->
+add anything else that would be cool 
+add number of guesses  option-->
+
 
 <form onsubmit="event.preventDefault();check()">
     <label for="red">Guess:</label>
@@ -18,15 +20,14 @@ theNumber = Math.floor(Math.random()*100)
 check = function() {
     guess = document.querySelector("#guess").value;
     words = document.querySelector("#words");
-    words.innerHTML += "<br>" + theNumber;
     if (guess == theNumber) {
-        alert("you are right!")
+        words.innerHTML += "<br>" + guess + " you are correct!" + "<br>"
     } else {
         if (guess < theNumber) {
-            alert("you are too low")
+            words.innerHTML += "<br>" + guess + " is too low"
         } else {
-            alert("you are too high")
-        }
+            words.innerHTML += "<br>" + guess + " you are too high"
+        }      
     }
 }
 </script>
