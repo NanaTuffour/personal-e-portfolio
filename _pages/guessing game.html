@@ -4,8 +4,8 @@ permalink: /game/
 <!-- look up form onsubmit
 make game automatic with search algorithm
 add play for me button 
-add number of guesses option
 if no guess add invalid statement
+clear guess after incorrect input
 -->
 
 
@@ -34,6 +34,7 @@ check = function() {
      guesscounter.innerHTML = guessChecks;
     }
     guess = document.querySelector("#guess").value;
+    document.querySelector("#guess").value = ""
     if (guess == theNumber) {
         words.innerHTML += "<br>" + guess + " you are correct!" + "<br>"
 
