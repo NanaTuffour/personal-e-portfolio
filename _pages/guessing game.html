@@ -11,7 +11,7 @@ clear guess after incorrect input
 
 <form onsubmit="event.preventDefault();check()">
     <label for="red">Guess:</label>
-    <input id="guess" type="text" />
+    <input id="guess" type="number" min="0" max="100"/>
     <button type="submit">Check</button>
 </form>
 <button onclick="reset()">Reset</button>
