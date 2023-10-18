@@ -3,9 +3,11 @@ permalink: /game/
 ---
 <!-- look up form onsubmit
 make game automatic with search algorithm
-add play for me button
-add anything else that would be cool 
-add number of guesses  option-->
+add play for me button 
+add number of guesses option
+stop player guesses after correct answer
+if no guess add invalid statement
+-->
 
 
 <form onsubmit="event.preventDefault();check()">
@@ -14,6 +16,7 @@ add number of guesses  option-->
     <button type="submit">Check</button>
 </form>
 <button onclick="reset()">Reset</button>
+<button onclick="play()">Play for me</button>
 <p id="words">  This is the beginning of how I added a guessing 
     game to my ePortfolio</p>
 <script type="text/javascript">
@@ -21,9 +24,16 @@ var guessChecks = 0;
 theNumber = Math.floor(Math.random()*100)
 words = document.querySelector("#words");
 check = function() {
+    guessChecks += 1;
+
+    if (guessChecks > 3) {
+        alert("You've run out of guesses")
+        return;
+    }
     guess = document.querySelector("#guess").value;
     if (guess == theNumber) {
         words.innerHTML += "<br>" + guess + " you are correct!" + "<br>"
+
     } else {
         if (guess < theNumber) {
             words.innerHTML += "<br>" + guess + " is too low"
@@ -32,7 +42,11 @@ check = function() {
         }      
     }
 
-    guessChecks += 1;
+    
+
+
+
+    
     alert(guessChecks);
 }
 reset = function() {
@@ -40,5 +54,10 @@ reset = function() {
     theNumber = Math.floor(Math.random()*100)
     guessChecks = 0;
     alert(guessChecks)
+}
+
+play = function() {
+
+
 }
 </script>
