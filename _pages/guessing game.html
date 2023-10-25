@@ -20,14 +20,13 @@ add play for me button
 <p id="words">  This is the beginning of how I added a guessing 
     game to my ePortfolio</p>
 <script type="text/javascript">
-var guessChecks = 0;
-theNumber = Math.floor(Math.random()*100)
-words = document.querySelector("#words");
-guesscounter = document.querySelector("#guesscounter");
-guess = document.querySelector("#guess").value;
+let guessChecks = 0;
+let theNumber = Math.floor(Math.random()*100)
+let words = document.querySelector("#words");
+let guesscounter = document.querySelector("#guesscounter");
 check = function() {
 
-    guess = document.querySelector("#guess").value;
+    let guess = document.querySelector("#guess").value;
 
     if (guess === "") {
 
