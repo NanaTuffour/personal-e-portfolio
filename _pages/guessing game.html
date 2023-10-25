@@ -21,10 +21,15 @@ add play for me button
     game to my ePortfolio</p>
 <script type="text/javascript">
 let guessChecks = 0;
+let gameHasBeenPlayed = false
 let theNumber = Math.floor(Math.random()*100)
 let words = document.querySelector("#words");
 let guesscounter = document.querySelector("#guesscounter");
 check = function() {
+    if (!gameHasBeenPlayed) {
+
+        words.innerHTML = "";
+    }
 
     let guess = document.querySelector("#guess").value;
 
