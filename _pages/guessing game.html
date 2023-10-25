@@ -31,7 +31,7 @@ check = function() {
 
     if (guess === "") {
 
-        words.innerHTML = "Invalid input! Please try again"
+        words.innerHTML += "<br>" + "Invalid input! Please try again"
         return;
     }
 
@@ -46,7 +46,7 @@ check = function() {
     
     document.querySelector("#guess").value = ""
     if (guess == theNumber) {
-        words.innerHTML += "<br>" + guess + " you are correct!" + "<br>"
+        words.innerHTML += "<br>" + guess + " you are correct!"
 
     } else {
         if (guess < theNumber) {
