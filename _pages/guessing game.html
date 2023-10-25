@@ -9,6 +9,8 @@ clear guess after incorrect input
 -->
 
 
+
+
 <form onsubmit="event.preventDefault();check()">
     <label for="red">Guess:</label>
     <input id="guess" type="number" min="0" max="100"/>
@@ -24,7 +26,17 @@ var guessChecks = 0;
 theNumber = Math.floor(Math.random()*100)
 words = document.querySelector("#words");
 guesscounter = document.querySelector("#guesscounter");
+guess = document.querySelector("#guess").value;
 check = function() {
+
+    guess = document.querySelector("#guess").value;
+
+    if (guess === "") {
+
+        words.innerHTML = "Invalid input! Please try again"
+        return;
+    }
+
     guessChecks += 1;
 
     if (guessChecks > 3) {
@@ -33,7 +45,7 @@ check = function() {
     } else {
      guesscounter.innerHTML = guessChecks;
     }
-    guess = document.querySelector("#guess").value;
+    
     document.querySelector("#guess").value = ""
     if (guess == theNumber) {
         words.innerHTML += "<br>" + guess + " you are correct!" + "<br>"
@@ -47,7 +59,10 @@ check = function() {
     }
 
     
+    if (guess) {
 
+
+    }
 
 
     
