@@ -1,14 +1,13 @@
 ---
-title: "Post: Modified Date"
-last_modified_at: 2016-03-09T16:20:02-05:00
+title: "Topic Reflection"
+last_modified_at: 2023-11-27T19:28:00-05:00
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - data science
+  - life
+  - advice
+  - useful
 ---
 
-This post has been updated and should show a modified date if used in a layout.
-
-All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
+My favorite topic from this class so far has been the application of math in the world of data science. Mrs. Stupavsky gave me useful advice about the importance of increasing my range of skills to become a good data analyst. I discovered I need to learn more about software such as SQL, Oracle, Tableau, and Jupyter Notebooks and practice using them since they are heavily used in data analytics. I also learned the importance of networking and finding knowledgeable people in data science because I can ask questions and get advice from people who have real experience in the field.
