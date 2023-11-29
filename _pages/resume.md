@@ -4,8 +4,7 @@ title: "Resume"
 ---
 
 [Resume as PDF](https://nanatuffour.github.io/personal-e-portfolio/assets/current-resume.pdf)
-
-Resume must be done before impending deadline
+[LaTeX Resume PDF](https://nanatuffour.github.io/personal-e-portfolio/assets/latex-resume.pdf)
 
 ## Purpose
 
