@@ -5,3 +5,7 @@ main:
     url: /about/
   - title: "Resume"
     url: /resume/
+  - title: "Jupyter Notebook"
+    url: /euler/
+  - title: "Guessing Game!"
+    url: /game/
