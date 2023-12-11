@@ -6,6 +6,6 @@ main:
   - title: "Resume"
     url: /resume/
   - title: "Jupyter Notebook"
-    url: /euler/
+    url: /euler.html/
   - title: "Guessing Game!"
     url: /game/
